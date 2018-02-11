@@ -1,0 +1,68 @@
+Sequential write & sequential read
+____________________________________________
+
+Started benchmark: Write benchmark.
+6.156396132 seconds.
+
+Started benchmark: Read benchmark during compaction.
+12.646693873 seconds.
+
+Started benchmark: Read benchmark after compaction.
+8.75120908 seconds.
+
+
+Random write & random read
+____________________________________________
+
+Started benchmark: Write benchmark.
+8.484925086 seconds.
+
+Started benchmark: Read benchmark during compaction.
+68.857341871 seconds.
+
+Started benchmark: Read benchmark after compaction.
+23.454444721 seconds.
+
+
+Sequential write & random read
+____________________________________________
+
+Started benchmark: Write benchmark.
+6.106515485 seconds.
+
+Started benchmark: Read benchmark during compaction.
+67.815329096 seconds.
+
+Started benchmark: Read benchmark after compaction.
+28.585979981 seconds.
+
+
+Random write & sequential read
+____________________________________________
+
+Started benchmark: Write benchmark.
+8.28142535 seconds.
+
+Started benchmark: Read benchmark during compaction.
+13.367227016 seconds.
+
+Started benchmark: Read benchmark after compaction.
+8.032847218 seconds.
+
+Forward iteration
+____________________________________________
+
+Started benchmark: Write benchmark.
+6.281185711 seconds.
+
+Started benchmark: Forward iteration benchmark during compaction.
+14.000499379 seconds.
+
+Started benchmark: Forward iteration benchmark after compaction.
+9.207503531 seconds.
+
+
+Reverse iteration
+____________________________________________
+
+Reverse iterations on persistent databases are slow. No benchmark.

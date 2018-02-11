@@ -1,0 +1,75 @@
+Sequential write & sequential read
+____________________________________________
+
+Started benchmark: Write benchmark.
+1.536804703 seconds.
+
+Started benchmark: Read benchmark during compaction.
+2.976355357 seconds.
+
+Started benchmark: Read benchmark after compaction.
+1.653323858 seconds.
+
+
+Random write & random read
+____________________________________________
+
+Started benchmark: Write benchmark.
+3.199287649 seconds.
+
+Started benchmark: Read benchmark during compaction.
+12.942004988 seconds.
+
+Started benchmark: Read benchmark after compaction.
+6.298416816 seconds.
+
+
+Sequential write & random read
+____________________________________________
+
+Started benchmark: Write benchmark.
+1.607766528 seconds.
+
+Started benchmark: Read benchmark during compaction.
+5.533098456 seconds.
+
+Started benchmark: Read benchmark after compaction.
+4.460922371 seconds.
+
+
+Random write & sequential read
+____________________________________________
+
+Started benchmark: Write benchmark.
+3.35219647 seconds.
+
+Started benchmark: Read benchmark during compaction.
+6.053080005 seconds.
+
+Started benchmark: Read benchmark after compaction.
+4.618083462 seconds.
+
+Forward iteration
+____________________________________________
+
+Started benchmark: Write benchmark.
+1.611579426 seconds.
+
+Started benchmark: Forward iteration benchmark during compaction.
+3.284882537 seconds.
+
+Started benchmark: Forward iteration benchmark after compaction.
+1.590315951 seconds.
+
+
+Reverse iteration
+____________________________________________
+
+Started benchmark: Write benchmark.
+1.652385965 seconds.
+
+Started benchmark: Reverse iteration benchmark during compaction.
+3.222867462 seconds.
+
+Started benchmark: Reverse iteration benchmark after compaction.
+1.690222112 seconds.
