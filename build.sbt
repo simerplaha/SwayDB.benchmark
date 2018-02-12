@@ -4,11 +4,11 @@ version := "0.1"
 
 scalaVersion := "2.12.4"
 
-//resolvers += Opts.resolver.sonatypeSnapshots
+resolvers += Opts.resolver.sonatypeReleases
 
 libraryDependencies ++=
   Seq(
-    "io.swaydb" %% "swaydb" % "0.1-SNAPSHOT",
+    "io.swaydb" %% "swaydb" % "0.1",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.7.2",
     "ch.qos.logback" % "logback-classic" % "1.2.3",
   )

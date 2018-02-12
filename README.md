@@ -1,6 +1,7 @@
 # SwayDB.benchmark
 
-Benchmarks for SwayDB. Benchmark results on 1 million key-values can be viewed at [http://swaydb.io/](http://swaydb.io/#performance/macbook-pro-mid-2014)
+Benchmarks for SwayDB. Benchmark results on 1 million key-values can be viewed 
+at [http://swaydb.io/performance](http://swaydb.io/#performance)
 
 # Run benchmarks
 
@@ -44,4 +45,4 @@ directory gets deleted after the test is complete or if the JVM is terminated.
 **Note:** Reverse iterations on ***persistent databases*** are much slower than forward iterations.
 
 # Rebuilding the jar
-`sbt clean assembly`
+`sbt assembly`
