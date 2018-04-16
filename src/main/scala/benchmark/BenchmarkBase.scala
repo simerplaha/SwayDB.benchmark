@@ -22,7 +22,7 @@ package benchmark
 import com.typesafe.scalalogging.LazyLogging
 import swaydb.core.util.Benchmark
 import swaydb.data.slice.Slice
-import swaydb.serializers.Default.{LongSerializer, StringSerializer}
+import swaydb.serializers.Default.{IntSerializer, LongSerializer, StringSerializer}
 import swaydb.types.SwayDBMap
 
 import scala.annotation.tailrec
@@ -71,7 +71,8 @@ trait BenchmarkBase extends Benchmark with LazyLogging {
     else if (reverseIteration)
       benchmark("Reverse iteration benchmark during compaction") {
         db.foreachRight {
-          case (_, _) =>
+          case (key, _) =>
+            println(s"${LongSerializer.read(key)}")
         }
       }
     else {
