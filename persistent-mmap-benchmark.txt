@@ -1,3 +1,5 @@
+OLD Benchmarks for Version 0.2
+
 Sequential write & read
 ____________________________________________
 
