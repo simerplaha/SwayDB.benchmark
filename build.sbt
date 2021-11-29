@@ -11,7 +11,7 @@ libraryDependencies ++=
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2",
     "ch.qos.logback" % "logback-classic" % "1.2.3",
     "io.swaydb" %% "swaydb" % "0.12-RC3",
-    "org.rocksdb" % "rocksdbjni" % "6.5.3"
+    "org.rocksdb" % "rocksdbjni" % "6.26.1"
   )
 
 mainClass in assembly := Some("swaydb.benchmark.app.Start")
